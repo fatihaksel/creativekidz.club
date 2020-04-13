@@ -29,4 +29,4 @@ Project is based on open-source Q&A software [Discourse](https://en.wikipedia.or
 
 ## Notes
 
-Creative Kidz Club is a [Code:Buffalo Hackathon](https://www.43north.org/code-buffalo/ project).
+Creative Kidz Club is a [Code:Buffalo Hackathon](https://www.43north.org/code-buffalo/) project.
