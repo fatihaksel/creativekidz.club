@@ -19,7 +19,7 @@ Project is based on open-source Q&A software [Discourse](https://en.wikipedia.or
 
 * *Axel* - Software Engineer / Full Stack Developer
     * [GitHub](https://github.com/fatihaksel)
-    * [LinkedIn](www.linkedin.com/in/fatih-aksel)
+    * [LinkedIn](https://www.linkedin.com/in/fatih-aksel/)
 * *Jeff* - Customer Developer / Front End Developer, Architect
     * [GitHub](https://github.com/wayraw)
     * [LinkedIn](https://www.linkedin.com/in/jeffraugh/)
