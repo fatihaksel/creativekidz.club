@@ -24,10 +24,9 @@ Project is based on open-source Q&A software [Discourse](https://en.wikipedia.or
     * [GitHub](https://github.com/wayraw)
     * [LinkedIn](https://www.linkedin.com/in/jeffraugh/)
 * *Hazel* - UB Assistant Professor / Product Manager
-    * [GitHub]()
     * [LinkedIn](https://www.linkedin.com/in/hacer-aksel-79062867/)
 
 
 # Notes
 
-Creative Kidz Club is a [Code:Buffalo Hackathon](https://www.43north.org/code-buffalo/ project). 
+Creative Kidz Club is a [Code:Buffalo Hackathon](https://www.43north.org/code-buffalo/ project).
