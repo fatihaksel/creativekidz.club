@@ -20,7 +20,7 @@ Project is based on open-source Q&A software [Discourse](https://en.wikipedia.or
 * *Axel* - Software Engineer / Full Stack Developer
     * [GitHub](https://github.com/fatihaksel)
     * [LinkedIn](https://www.linkedin.com/in/fatih-aksel/)
-* *Jeff* - Customer Developer / Front End Developer, Architect
+* *Jeff* - Customer Developer / Front End Developer, Designer
     * [GitHub](https://github.com/wayraw)
     * [LinkedIn](https://www.linkedin.com/in/jeffraugh/)
 * *Hazel* - UB Assistant Professor / Product Manager
