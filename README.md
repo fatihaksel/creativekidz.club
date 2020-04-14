@@ -13,7 +13,7 @@ Project is based on open-source Q&A software [Discourse](https://en.wikipedia.or
 * [Ruby](https://www.ruby-lang.org/en/) - Backend Language
 * [Discourse Development](https://meta.discourse.org/t/beginners-guide-to-install-discourse-for-development-using-docker/102009) - Discourse Development using docker
 * [Addon & Theme Building](https://www.broculos.net/2015/09/getting-started-with-discourse.html) - Getting Started with Discourse Development
-* We have developed a customized theme for our web-app https://github.com/fatihaksel/creative-kidz-theme For a detailed customizations please check out the [Customizations file](./Customizations.md)
+* We have developed a customized theme for our web-app https://github.com/fatihaksel/creative-kidz-theme For a detailed customizations please check out the [Customizations file](./CUSTOMISATIONS.md)
 * [Docker](https://www.docker.com/) - Project is based on docker, hosted on Digital Ocean Droplets
 
 
