@@ -1,8 +1,7 @@
 # creativekidz.club
-The goal of Creative Kidz is a community discussion web-site to share fun, easy to do activities for kids at home.
+We gather and share creative, fun, easy to do activities for kids. The platform is designed to crowd-source projects, activities for kids to work independently or as a group.
 
 It is a knowledge-base to keep kids entertained during the coronavirus crisis.
-
 
 
 ## Built With
