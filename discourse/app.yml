@@ -54,19 +54,19 @@ env:
 
   ## TODO: List of comma delimited emails that will be made admin and developer
   ## on initial signup example 'user1@example.com,user2@example.com'
-  DISCOURSE_DEVELOPER_EMAILS: 'fatihaksel@gmail.com'
+  DISCOURSE_DEVELOPER_EMAILS: ''
 
   ## TODO: The SMTP mail server used to validate new accounts and send notifications
   # SMTP ADDRESS, username, and password are required
   # WARNING the char '#' in SMTP password can cause problems!
-  DISCOURSE_SMTP_ADDRESS: in-v3.mailjet.com
-  DISCOURSE_SMTP_PORT: 587
-  DISCOURSE_SMTP_USER_NAME: 7ce21b047f5f5c402b5fab80e95248c2
-  DISCOURSE_SMTP_PASSWORD: "9bfe11d405047fbdc2ef79c402720b27"
+  DISCOURSE_SMTP_ADDRESS:
+  DISCOURSE_SMTP_PORT:
+  DISCOURSE_SMTP_USER_NAME:
+  DISCOURSE_SMTP_PASSWORD: ""
   #DISCOURSE_SMTP_ENABLE_START_TLS: true           # (optional, default true)
 
   ## If you added the Lets Encrypt template, uncomment below to get a free SSL certificate
-  LETSENCRYPT_ACCOUNT_EMAIL: fatihaksel@gmail.com
+  LETSENCRYPT_ACCOUNT_EMAIL:
 
   ## The http or https CDN address for this Discourse instance (configured to pull)
   ## see https://meta.discourse.org/t/14857 for details
