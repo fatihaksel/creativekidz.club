@@ -1,7 +1,7 @@
-# Customizations
+# Customizations
 This page includes the customizations.
 
-## Theme
+## Theme
 Theme related customizations
 
 *Custom Header Component*
