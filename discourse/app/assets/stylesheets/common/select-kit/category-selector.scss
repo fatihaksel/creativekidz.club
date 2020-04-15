@@ -1,0 +1,13 @@
+.select-kit,
+.select-kit-box {
+  &.category-selector {
+    .select-kit-selected-name {
+      .badge-wrapper {
+        &.box {
+          margin: 2px;
+          padding: 0;
+        }
+      }
+    }
+  }
+}

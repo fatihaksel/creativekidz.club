@@ -1,0 +1,61 @@
+# encoding: utf-8
+#
+# Never edit this file. It will be overwritten when translations are pulled from Transifex.
+#
+# To work with us on translations, join this project:
+# https://www.transifex.com/projects/p/discourse-org/
+
+hu:
+  site_settings:
+    discourse_narrative_bot_enabled: "A Discourse alámondó bot (discobot) bekapcsolása"
+    disable_discourse_narrative_bot_welcome_post: "A Discourse alámondó bot üdvözlő üzenetének kikapcsolása"
+    discourse_narrative_bot_ignored_usernames: "Felhasználónevek, amelyeket a Discourse alámondó bot figyelmen kívül hagyjon"
+    discourse_narrative_bot_disable_public_replies: "A Discourse alámondó bot nyilvános válaszainak kikapcsolása"
+    discourse_narrative_bot_welcome_post_type: "A Discourse mesélő bot üdvözlő üzeneteinek kiküldendő típusai"
+    discourse_narrative_bot_welcome_post_delay: "Várj (n) másodpercet a Discourse mesélő bot üdvözlő üzenetének kiküldése előtt."
+  badges:
+    certified:
+      name: Hitelesített
+      description: "Teljesítette az új felhasználók eligazítását"
+      long_description: |
+        Ezt a jelvényt az új felhasználók interaktív eligazításának sikeres teljesítéséért adjuk. Kezdeményező voltál és megtanultad a beszélgetés alapvető eszközeit, és ezzel hitelesített lettél!
+    licensed:
+      name: Licenszelt
+  discourse_narrative_bot:
+    quote:
+      trigger: "idézet"
+      '1':
+        quote: "Minden nehézség közepében lehetőség rejtőzik"
+        author: "Albert Einstein"
+      '2':
+        author: "Mahatma Gandhi"
+      '3':
+        quote: "Ne azért sírj, mert vége van, mosolyogj azért, mert megtörtént."
+      '4':
+        author: "Charles-Guillaume Étienne"
+      '5':
+        author: "Theodore Roosevelt"
+      '6':
+        author: "Forrest Gump édesanyja"
+      '7':
+        quote: "Kis lépés egy embernek, de hatalmas ugrás az emberiségnek."
+        author: "Neil Armstrong"
+      '8':
+        author: "Eleanor Roosevelt"
+      '9':
+        author: "Bruce Lee"
+      '10':
+        author: "Napoleon Hill"
+    magic_8_ball:
+      answers:
+        '3': "Kétségtelenül"
+        '7': "Leginkább"
+        '9': "Igen"
+        '12': "Kérdezd meg később"
+        '17': "A válaszom nem."
+    track_selector:
+      reset_trigger: "start"
+      skip_trigger: "átugrás"
+    new_user_narrative:
+      hello:
+        title: "Üdvözlet!"

@@ -1,0 +1,120 @@
+{{#d-modal-body title="poll.ui_builder.title" class="poll-ui-builder"}}
+  <form class="poll-ui-builder-form form-horizontal">
+    <div class="options">
+      <div class="input-group poll-select">
+        <label class="input-group-label">{{i18n 'poll.ui_builder.poll_type.label'}}</label>
+        {{combo-box
+          content=pollTypes
+          value=pollType
+          valueProperty="value"
+          class="poll-type"
+          onChange=(action (mut pollType))
+        }}
+      </div>
+
+      <div class="input-group poll-select">
+        <label class="input-group-label">{{i18n 'poll.ui_builder.poll_result.label'}}</label>
+        {{combo-box
+          content=pollResults
+          value=pollResult
+          class="poll-result"
+          valueProperty="value"
+        }}
+      </div>
+
+      <div class="input-group poll-select">
+        <label class="input-group-label">{{i18n 'poll.ui_builder.poll_groups.label'}}</label>
+        {{combo-box content=siteGroups
+                    value=pollGroups
+                    options=(hash clearable=true)
+                    valueAttribute="value"}}
+      </div>
+
+      {{#unless isNumber}}
+        <div class="input-group poll-select">
+          <label class="input-group-label">{{i18n 'poll.ui_builder.poll_chart_type.label'}}</label>
+          {{combo-box
+            class="poll-chart-type"
+            content=pollChartTypes
+            value=chartType
+            valueAttribute="value"
+          }}
+        </div>
+      {{/unless}}
+
+      {{#if showMinMax}}
+        <div class="input-group poll-number">
+          <label class="input-group-label">{{i18n 'poll.ui_builder.poll_config.min'}}</label>
+          {{input type='number'
+                  value=pollMin
+                  valueProperty="value"
+                  class="poll-options-min"}}
+        </div>
+        {{input-tip validation=minMaxValueValidation}}
+
+        <div class="input-group poll-number">
+          <label class="input-group-label">{{i18n 'poll.ui_builder.poll_config.max'}}</label>
+          {{input type='number'
+                  value=pollMax
+                  valueProperty="value"
+                  class="poll-options-max"}}
+        </div>
+
+        {{#if isNumber}}
+          <div class="input-group poll-number">
+            <label class="input-group-label">{{i18n 'poll.ui_builder.poll_config.step'}}</label>
+            {{input type='number'
+                    value=pollStep
+                    valueProperty="value"
+                    min="1"
+                    class="poll-options-step"}}
+          </div>
+          {{input-tip validation=minStepValueValidation}}
+        {{/if}}
+      {{/if}}
+
+      {{#unless isNumber}}
+        <div class="input-group poll-textarea">
+          <label>{{i18n 'poll.ui_builder.poll_options.label'}}</label>
+          {{textarea value=pollOptions autocomplete="discourse"}}
+        </div>
+        {{input-tip validation=minNumOfOptionsValidation}}
+      {{/unless}}
+
+      {{#unless isPie}}
+        <div class="input-group poll-checkbox">
+          <label>
+            {{input type='checkbox' checked=publicPoll}}
+            {{i18n "poll.ui_builder.poll_public.label"}}
+          </label>
+        </div>
+      {{/unless}}
+
+      <div class="input-group poll-checkbox">
+        <label>
+          {{input type="checkbox" checked=autoClose}}
+          {{i18n "poll.ui_builder.automatic_close.label"}}
+        </label>
+      </div>
+
+      {{#if autoClose}}
+        <div class="input-group poll-date">
+          {{date-picker-future value=date containerId="date-container"}}
+          {{input type="time" value=time}}
+        </div>
+
+        <div class="input-group poll-date">
+          <div id="date-container"></div>
+        </div>
+      {{/if}}
+    </div>
+
+    <div class="d-editor-preview">
+      {{cook-text this.pollOutput}}
+    </div>
+  </form>
+{{/d-modal-body}}
+
+<div class="modal-footer">
+  {{d-button action=(action "insertPoll") icon="chart-bar" class='btn-primary' label='poll.ui_builder.insert' disabled=disableInsert}}
+</div>

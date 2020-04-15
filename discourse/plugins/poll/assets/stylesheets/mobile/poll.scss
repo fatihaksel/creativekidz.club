@@ -1,0 +1,39 @@
+div.poll {
+  .poll-buttons {
+    padding: 0.5em 1em 1em 1em;
+
+    button {
+      margin-right: 0.5em;
+    }
+  }
+
+  .poll-info {
+    padding: 0 1em;
+    display: flex;
+    flex-wrap: wrap;
+    .info-text {
+      display: inline;
+    }
+    .info-number {
+      font-size: $font-up-6;
+    }
+    p {
+      margin: 0;
+      width: 100%;
+    }
+    .info-label {
+      margin-left: 0.25em;
+    }
+  }
+}
+
+div.poll.pie {
+  .poll-container {
+    width: calc(100% - 30px);
+    border-bottom: 1px solid $primary-low;
+
+    .poll-grouped-pie-container {
+      width: 100%;
+    }
+  }
+}

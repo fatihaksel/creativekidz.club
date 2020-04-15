@@ -1,0 +1,367 @@
+.menu-panel.slide-in {
+  position: fixed;
+  right: 0;
+  box-shadow: shadow("header");
+  &.animate {
+    transition: right 0.2s ease-out, left 0.2s ease-out;
+  }
+
+  .panel-body {
+    width: 100%;
+  }
+}
+.header-cloak {
+  display: none;
+}
+
+.menu-panel.drop-down {
+  position: absolute;
+  // positions are relative to the .d-header .panel div
+  top: 100%; // directly underneath .panel
+  right: -10px; // 10px to the right of .panel - adjust as needed
+}
+
+.menu-panel {
+  border: 1px solid $primary-low;
+  box-shadow: shadow("menu-panel");
+  background-color: $secondary;
+  z-index: z("header");
+  padding: 0.5em;
+  width: 300px;
+
+  hr {
+    margin: 3px 0;
+  }
+
+  .panel-header {
+    position: absolute;
+    right: 20px;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .panel-body {
+    touch-action: pan-y pinch-zoom;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 100vh;
+  }
+
+  .badge-notification {
+    vertical-align: text-bottom;
+  }
+}
+
+.menu-links.columned {
+  li {
+    width: 50%;
+    float: left;
+  }
+}
+
+.menu-panel {
+  li,
+  li.heading {
+    a.widget-link {
+      padding: 0.25em 0.5em;
+      display: block;
+      &:hover,
+      &:focus {
+        background-color: $highlight-medium;
+        outline: none;
+      }
+    }
+
+    .new {
+      font-size: $font-down-1;
+      margin-left: 0.5em;
+      color: dark-light-choose($primary-medium, $secondary-medium);
+    }
+  }
+
+  .categories-link {
+    display: block;
+    padding: 0.25em 0.5em;
+  }
+
+  li.category-link {
+    float: left;
+    background-color: transparent;
+    display: inline-flex;
+    align-items: center;
+    padding: 0.25em 0.5em;
+    width: 50%;
+    box-sizing: border-box;
+    a {
+      display: inline-flex;
+      &:hover,
+      &:focus {
+        background: transparent;
+      }
+    }
+    .badge-notification {
+      color: dark-light-choose($primary-medium, $secondary-medium);
+      background-color: transparent;
+      display: inline;
+      padding: 0;
+      font-size: $font-down-1;
+      line-height: $line-height-large;
+    }
+    .badge-wrapper {
+      &.bar,
+      &.bullet {
+        color: $primary;
+        padding: 0 0 0 0.15em;
+      }
+      &.box {
+        color: $secondary;
+        + a.badge.badge-notification {
+          padding-top: 2px;
+        }
+        span {
+          z-index: z("base") * -1;
+        }
+      }
+    }
+  }
+
+  // note these topic counts only appear for anons in the category hamburger drop down
+  b.topics-count {
+    color: dark-light-choose($primary-medium, $secondary-medium);
+    font-weight: normal;
+    font-size: $font-down-1;
+  }
+
+  span.badge-category {
+    max-width: 100px;
+  }
+
+  div.discourse-tags {
+    font-size: $font-down-1;
+  }
+}
+
+.user-menu {
+  .quick-access-panel {
+    width: 100%;
+    display: table;
+
+    h3 {
+      padding: 0 0.4em;
+      font-weight: bold;
+      margin: 0.5em 0;
+    }
+
+    .d-icon,
+    &:hover .d-icon {
+      color: $primary-medium;
+    }
+    .icon {
+      color: $primary-high;
+    }
+    li {
+      background-color: $tertiary-low;
+
+      // This is until other languages remove the HTML from within
+      // notifications. It can then be removed
+      div .fa {
+        display: none;
+      }
+
+      span:first-child {
+        color: $primary;
+      }
+
+      &:hover,
+      &:focus {
+        background-color: $highlight-medium;
+        outline: none;
+      }
+
+      a {
+        padding: 0;
+        > div {
+          overflow: hidden; // clears the text from wrapping below icons
+          overflow-wrap: anywhere;
+          @supports not (overflow-wrap: anywhere) {
+            word-break: break-word;
+          }
+
+          // Truncate items with more than 2 lines.
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;
+        }
+      }
+
+      p {
+        margin: 0;
+        overflow: hidden;
+      }
+    }
+    li:not(.show-all) {
+      padding: 0.25em 0.5em;
+      .d-icon {
+        float: left;
+        margin-right: 5px;
+        padding-top: 0.2em;
+      }
+    }
+    .is-warning {
+      .d-icon-far-envelope {
+        color: $danger;
+      }
+    }
+    .read {
+      background-color: $secondary;
+    }
+    .none {
+      padding-top: 5px;
+    }
+    .spinner-container {
+      min-height: 2em;
+    }
+    .spinner {
+      width: 20px;
+      height: 20px;
+      border-width: 2px;
+      margin: 0 auto;
+    }
+    .show-all a {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 30px;
+      color: dark-light-choose($primary-medium, $secondary-high);
+      background: blend-primary-secondary(5%);
+      &:hover {
+        color: $primary;
+        background: dark-light-diff($primary, $secondary, 90%, -80%);
+      }
+    }
+    /* as a big ol' click target, don't let text inside be selected */
+    @include unselectable;
+  }
+
+  .dismiss-link {
+    display: inline-block;
+    float: right;
+  }
+}
+
+div.menu-links-header {
+  width: 100%;
+  display: table;
+  border-collapse: separate;
+  border-spacing: 0 0.5em;
+  .menu-links-row {
+    border-bottom: 1px solid dark-light-choose($primary-low, $secondary-medium);
+    display: flex;
+
+    // Tabs should have "ears".
+    padding: 0 4px;
+
+    li {
+      display: inline-flex;
+      align-items: center;
+      flex-wrap: wrap;
+      &.user {
+        margin-right: auto;
+      }
+      &.glyphs {
+        flex-wrap: wrap;
+        text-align: right;
+
+        a {
+          // Expand the click area a bit.
+          padding-left: 0.6em;
+          padding-right: 0.6em;
+        }
+      }
+
+      a {
+        // This is to make sure active and inactive tab icons have the same
+        // size. `box-sizing` does not work and I have no idea why.
+        border: 1px solid transparent;
+        border-bottom: 0;
+      }
+
+      a.active {
+        border: 1px solid dark-light-choose($primary-low, $secondary-medium);
+        border-bottom: 0;
+        position: relative;
+
+        &:after {
+          display: block;
+          position: absolute;
+          top: 100%;
+          left: 0;
+          z-index: z("header") + 1; // Higher than .menu-panel
+          width: 100%;
+          height: 0;
+          content: "";
+          border-top: 1px solid $secondary;
+        }
+
+        &:focus,
+        &:hover {
+          background-color: inherit;
+        }
+      }
+    }
+  }
+  a:hover,
+  a:focus {
+    background-color: $highlight-medium;
+    outline: none;
+  }
+  a {
+    padding: 0.3em 0.5em;
+  }
+  a.user-activity-link {
+    align-items: center;
+    display: flex;
+    margin: -0.5em 0;
+    max-width: 130px;
+
+    // `overflow: hidden` on `.user-activity-link` would hide the `::after`
+    // pseudo element (used to create the tab-looking effect). Sets `overflow:
+    // hidden` on the child username label instead.
+    overflow: visible;
+
+    span.d-label {
+      display: block;
+      max-width: 130px;
+      @include ellipsis;
+    }
+
+    @include breakpoint(mobile-medium) {
+      max-width: 125px;
+    }
+  }
+  li {
+    display: table-cell;
+    width: auto;
+    text-align: center;
+  }
+  li:first-child {
+    text-align: left;
+  }
+
+  li:last-child {
+    text-align: right;
+  }
+  .fa,
+  a {
+    color: dark-light-choose($primary-medium, $secondary-medium);
+  }
+
+  .d-icon-user {
+    margin-right: 0.475em;
+  }
+}

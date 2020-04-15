@@ -1,0 +1,37 @@
+.alert {
+  padding: 0.5em 1em;
+  background-color: $danger-low;
+  color: $primary;
+  position: relative;
+
+  .close {
+    font-size: $font-up-3;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+
+    .d-icon {
+      color: $primary-low-mid;
+    }
+  }
+
+  &.alert-success {
+    background-color: $success-low;
+    color: $primary;
+  }
+  &.alert-error {
+    background-color: $danger-low;
+    color: $primary;
+  }
+  &.alert-info {
+    background-color: $tertiary-low;
+    color: $primary;
+    &.clickable {
+      color: $tertiary;
+    }
+  }
+}
+
+a.alert.clickable {
+  display: flex;
+}

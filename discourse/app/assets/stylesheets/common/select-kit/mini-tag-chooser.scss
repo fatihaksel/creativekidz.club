@@ -1,0 +1,100 @@
+.select-kit {
+  &.combo-box {
+    &.mini-tag-chooser {
+      margin-bottom: 5px;
+      margin-left: 5px;
+
+      &.is-expanded {
+        .select-kit-header {
+          border: 1px solid $tertiary;
+        }
+      }
+
+      &.no-tags {
+        .select-kit-header .selected-name {
+          color: $primary-medium;
+        }
+      }
+
+      .select-kit-header {
+        height: 30px;
+
+        .selected-name {
+          margin: 0;
+          border: 0;
+          padding: 0;
+          outline: none;
+          box-shadow: none;
+          cursor: pointer;
+          max-width: 250px;
+
+          .name {
+            white-space: nowrap;
+          }
+        }
+      }
+
+      .select-kit-filter {
+        border-top: 0;
+      }
+
+      &.is-expanded .select-kit-wrapper,
+      .select-kit-wrapper {
+        display: none;
+      }
+
+      .select-kit-row {
+        &.is-selected {
+          background: none;
+        }
+
+        &.is-highlighted.is-selected {
+          background: $tertiary-low;
+        }
+
+        .discourse-tag-count {
+          margin-left: 5px;
+        }
+      }
+
+      .selected-tags {
+        max-height: 125px;
+        overflow-y: auto;
+        display: flex;
+        border-bottom: 1px solid $primary-low;
+        padding: 0.25em 0 0 0.25em;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+        width: 100%;
+
+        .selected-tag {
+          background: $primary-low;
+          box-sizing: border-box;
+          margin: 0;
+          padding: 0.5em;
+          border: 0;
+          font-size: $font-down-1;
+          margin-right: 0.25em;
+          margin-bottom: 0.25em;
+
+          .tag-icon {
+            margin-right: 0.25em;
+          }
+
+          &.is-highlighted {
+            box-shadow: 0 0 2px $danger, 0 1px 0 rgba(0, 0, 0, 0.05);
+          }
+
+          .d-icon {
+            color: $primary-low-mid;
+            vertical-align: middle;
+          }
+
+          &:hover .d-icon.d-icon-times {
+            color: $danger;
+          }
+        }
+      }
+    }
+  }
+}

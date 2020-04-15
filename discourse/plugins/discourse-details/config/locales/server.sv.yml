@@ -1,0 +1,12 @@
+# encoding: utf-8
+#
+# Never edit this file. It will be overwritten when translations are pulled from Transifex.
+#
+# To work with us on translations, join this project:
+# https://www.transifex.com/projects/p/discourse-org/
+
+sv:
+  site_settings:
+    details_enabled: 'Aktivera detaljfunktionen. Om du ändrar det här så måste du uppdatera alla inlägg med: "rake posts:rebake".'
+  details:
+    excerpt_details: "(klicka för mer detaljer)"

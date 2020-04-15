@@ -1,0 +1,37 @@
+.tap-tile-grid {
+  justify-content: space-between;
+  margin: 0.5em 0 1em 0;
+
+  .tap-tile {
+    color: $primary-high;
+    padding: 0.75em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 1px solid $primary-low;
+    margin: 0 0 0.5em;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $tertiary-low;
+    }
+
+    &.active {
+      background-color: $highlight-medium;
+    }
+
+    .d-icon {
+      color: $primary-medium;
+      margin: 0 0.5em 0 0;
+    }
+
+    .tap-tile-title {
+      font-weight: bold;
+      margin-right: auto;
+    }
+
+    .tap-tile-date {
+      margin-left: 1em;
+    }
+  }
+}
