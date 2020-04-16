@@ -3,7 +3,7 @@ We know that it is hard to keep kids busy at home, especially if parents want th
 
 We gather and share creative, fun, easy to do activities for kids. The platform is designed to crowd-source projects, activities for kids to work independently or as a group.
 
-![Creative Kidz Logo](./design/ck_logo_yellow.png)
+![Creative Kidz Logo](./design/ck_logo_yellow.png){:height="50%" width="50%"}
 
 It is a knowledge-base to keep kids entertained during the coronavirus crisis.
 
