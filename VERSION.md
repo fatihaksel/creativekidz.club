@@ -1,5 +1,7 @@
 # Version History
 
+* New categories are introduced
+* Logos are added
 * Mainpage layout shows thumbnails
 * Customized theme is introduced
 https://github.com/fatihaksel/creative-kidz-theme
