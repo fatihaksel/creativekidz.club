@@ -19,6 +19,7 @@ Project is based on open-source Q&A software [Discourse](https://en.wikipedia.or
 * We have developed a customized theme for our web-app https://github.com/fatihaksel/creative-kidz-theme
 * Please check out the [Installation file](./INSTALLATION.md)
 * [Docker](https://www.docker.com/) - Project is based on docker, hosted on Digital Ocean Droplets
+* [Docker CLI](https://docs.docker.com/engine/reference/commandline/cli/)
 * Droplet specific codes are in the [droplet folder](./droplet/)
 
 ## Team Members
