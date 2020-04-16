@@ -3,6 +3,8 @@ We know that it is hard to keep kids busy at home, especially if parents want th
 
 We gather and share creative, fun, easy to do activities for kids. The platform is designed to crowd-source projects, activities for kids to work independently or as a group.
 
+![Creative Kidz Logo](./ck_logo_yellow.png)
+
 It is a knowledge-base to keep kids entertained during the coronavirus crisis.
 
 
@@ -17,7 +19,7 @@ Project is based on open-source Q&A software [Discourse](https://en.wikipedia.or
 * We have developed a customized theme for our web-app https://github.com/fatihaksel/creative-kidz-theme
 * Please check out the [Installation file](./INSTALLATION.md)
 * [Docker](https://www.docker.com/) - Project is based on docker, hosted on Digital Ocean Droplets
-
+* Droplet specific codes are in the [droplet folder](./droplet/)
 
 ## Team Members
 
@@ -36,3 +38,4 @@ Project is based on open-source Q&A software [Discourse](https://en.wikipedia.or
 ## Acknowledgments
 
 * Creative Kidz Club is a built for [Code:Buffalo Hackathon](https://www.43north.org/code-buffalo/)
+* [Deniz Kalkan]( https://www.instagram.com/denkalart/) thank you for graphic designs
