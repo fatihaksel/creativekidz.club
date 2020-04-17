@@ -22,6 +22,7 @@ Project is based on open-source Q&A software [Discourse](https://en.wikipedia.or
 * [Docker](https://www.docker.com/) - Project is based on docker, hosted on Digital Ocean Droplets
 * [Docker CLI](https://docs.docker.com/engine/reference/commandline/cli/) - Docker Command Line Interface docs
 * Droplet specific codes are in the [droplet folder](./droplet/)
+* Survey of parents located here https://www.surveymonkey.com/r/JQD8N37
 
 ## Team Members
 
