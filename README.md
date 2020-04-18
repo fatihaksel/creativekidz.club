@@ -5,7 +5,7 @@ We gather and share creative, fun, easy to do activities for kids. The platform 
 
 ![Creative Kidz Logo](./design/ck_logo_yellow_small.png)
 
-It is a knowledge-base to keep kids entertained during the coronavirus crisis.
+It is a knowledge-base, learning & sharing platform to keep kids entertained during the coronavirus crisis.
 
 
 We have a survey for parents here --> https://www.surveymonkey.com/r/JQD8N37
