@@ -1,5 +1,6 @@
 # Version History
 
+* Added Twitter login
 * Adding different type of activities
 * Parents survey
 * SMTP Email Settings
