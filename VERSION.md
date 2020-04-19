@@ -1,11 +1,11 @@
 # Version History
 
-* First discussion of a topic
+* We got the first discussion inside a topic
 * Adding the first video content
 * Adding post template for different categories
-* We got our first mentor feedback thank you Jordan Walbesser
+* We got our first mentor feedback, thank you Jordan Walbesser!
 * Added Twitter login
-* Adding different type of activities
+* Adding different types of activities
 * Parents survey
 * SMTP Email Settings
 * Introducing new categories, Literacy, Music, Painting
@@ -13,4 +13,4 @@
 * Mainpage layout shows thumbnails
 * Customized theme is introduced https://github.com/fatihaksel/creative-kidz-theme
 * Added FB login
-* Discussion board, add new post, edit post
+* Discussion board, add new post, edit post, upvote
