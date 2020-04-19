@@ -7,6 +7,7 @@ We gather and share creative, fun, easy to do activities for kids. The platform 
 
 It is a knowledge-base, learning & sharing platform to keep kids entertained during the coronavirus crisis.
 
+Here is our version document and [the hackathon blog ](./VERSION.md)
 
 We have a survey for parents here --> https://www.surveymonkey.com/r/JQD8N37
 
@@ -43,3 +44,4 @@ Project is based on open-source Q&A software [Discourse](https://en.wikipedia.or
 
 * Creative Kidz Club is a project built for [Code:Buffalo Hackathon](https://www.43north.org/code-buffalo/)
 * [Deniz Kalkan]( https://www.instagram.com/denkalart/) thank you for graphic designs
+* We would like to thank our great mentors,

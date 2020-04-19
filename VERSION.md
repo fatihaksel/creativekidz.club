@@ -1,5 +1,6 @@
 # Version History
 
+* We got our first mentor feedback thank you Jordan Walbesser
 * Added Twitter login
 * Adding different type of activities
 * Parents survey
