@@ -1,5 +1,6 @@
 # Version History
 
+* Adding post template for different categories
 * We got our first mentor feedback thank you Jordan Walbesser
 * Added Twitter login
 * Adding different type of activities
