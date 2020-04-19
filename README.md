@@ -44,4 +44,4 @@ Project is based on open-source Q&A software [Discourse](https://en.wikipedia.or
 
 * Creative Kidz Club is a project built for [Code:Buffalo Hackathon](https://www.43north.org/code-buffalo/)
 * [Deniz Kalkan]( https://www.instagram.com/denkalart/) thank you for graphic designs
-* We would like to thank our great mentors,
+* We would like to thank our great mentors

@@ -8,7 +8,6 @@
 * Introducing new categories, Literacy, Music, Painting
 * Added logos
 * Mainpage layout shows thumbnails
-* Customized theme is introduced
-https://github.com/fatihaksel/creative-kidz-theme
+* Customized theme is introduced https://github.com/fatihaksel/creative-kidz-theme
 * Added FB login
-https://creativekidz.club/auth/facebook/callback
+* Discussion board, add new post, edit post
