@@ -30,7 +30,7 @@ Project is based on open-source Q&A software [Discourse](https://en.wikipedia.or
 
 We have integrated Buffalo Open Data ["Child Care Regulated Programs API"](https://data.ny.gov/Human-Services/Child-Care-Regulated-Programs-API/fymg-3wv3). This data includes the licensed and registered child care programs in New York State.
 
-We use [The Socrata Open Data API (SODA)](https://dev.socrata.com/) to access the open data platform and created a python script to integrate the data.
+We use [The Socrata Open Data API (SODA)](https://dev.socrata.com/) to access the open data platform and created a python script to integrate the data. The crawler script is located at [content/open-data-crawler.py](./content/open-data-crawler.py)
 
 ## Team Members
 
