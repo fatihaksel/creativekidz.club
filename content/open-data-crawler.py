@@ -58,10 +58,9 @@ def add_group(row):
     print(cc_desc)
 
     payload = {
-        "group[name]": group_name,
+        "group[name]": id,
         "group[full_name]": full_name,
-        "group[bio_raw]": program_type,
-        "group[allow_membership_requests]": "true"
+        "group[bio_raw]": program_type
     }
 
     r = requests.post(CK_GROUPS_API_ENDPOINT,
