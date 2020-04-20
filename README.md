@@ -26,6 +26,11 @@ Project is based on open-source Q&A software [Discourse](https://en.wikipedia.or
 * [Docker CLI](https://docs.docker.com/engine/reference/commandline/cli/) - Docker Command Line Interface docs
 * Droplet specific codes are in the [droplet folder](./droplet/)
 
+## Open Data Integrations
+We have integrated Buffalo Open Data "Child Care Regulated Programs API". This data includes the licensed and registered child care programs in New York State. Feel free to browse dataset via the link https://data.ny.gov/Human-Services/Child-Care-Regulated-Programs-API/fymg-3wv3
+
+We use [The Socrata Open Data API (SODA)](https://dev.socrata.com/) to access the open data platform and created a python script to integrate the data. 
+
 ## Team Members
 
 * *Axel* - Software Engineer / Full Stack Developer
@@ -33,7 +38,6 @@ Project is based on open-source Q&A software [Discourse](https://en.wikipedia.or
     * [GitHub](https://github.com/fatihaksel)
     * [LinkedIn](https://www.linkedin.com/in/fatih-aksel/)
 * *Jeff* - Customer Developer / Front End Developer
-    * Designer
     * [GitHub](https://github.com/wayraw)
     * [LinkedIn](https://www.linkedin.com/in/jeffraugh/)
 * *Hazel* - UB Assistant Professor / Product Manager
