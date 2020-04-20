@@ -1,5 +1,6 @@
 # Version History
 
+* Integrated 499 Child Care Centers in Erie County Area (Open Data)
 * We got the first discussion inside a topic
 * Adding the first video content
 * Adding post template for different categories
