@@ -26,7 +26,7 @@ Project is based on open-source Q&A software [Discourse](https://en.wikipedia.or
 * [Docker CLI](https://docs.docker.com/engine/reference/commandline/cli/) - Docker Command Line Interface docs
 * Droplet specific codes are in the [droplet folder](./droplet/)
 
-## Open Data Integrations
+## Open Data Integration
 
 We have integrated Buffalo Open Data ["Child Care Regulated Programs API"](https://data.ny.gov/Human-Services/Child-Care-Regulated-Programs-API/fymg-3wv3). This data includes the licensed and registered child care programs in New York State.
 
