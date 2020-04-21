@@ -14,6 +14,7 @@ Theme related customizations
 * Custom Header Component --> https://github.com/discourse/discourse-custom-header-links
     ```
     Most Liked, Posts with the most amount of likes, /latest/?order=op_likes, vdo, self, keep
+    Parent's Survey, Please join our survey , https://www.surveymonkey.com/r/JQD8N37, vdo, blank, remove
     Code::Buffalo, This is a Hackathon project , https://www.43north.org/code-buffalo/, vdo, blank, remove
     About Us, About Us, t/welcome-to-creative-kidz/7, vdo, self, keep
     ```
