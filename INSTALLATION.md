@@ -15,6 +15,7 @@ Theme related customizations
     ```
     Most Liked, Posts with the most amount of likes, /latest/?order=op_likes, vdo, self, keep
     Code::Buffalo, This is a Hackathon project , https://www.43north.org/code-buffalo/, vdo, blank, remove
+    About Us, About Us, t/welcome-to-creative-kidz/7, vdo, self, keep
     ```
 
 ## Installation
