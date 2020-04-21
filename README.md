@@ -19,6 +19,7 @@ Project is based on open-source Q&A software [Discourse](https://en.wikipedia.or
 * [Ruby](https://www.ruby-lang.org/en/) - Backend Language
 * [SQLite](https://sqlite.org/) - Database
 * [Discourse Development](https://meta.discourse.org/t/beginners-guide-to-install-discourse-for-development-using-docker/102009) - Discourse Development using docker
+* We used [The Socrata Open Data API (SODA)](https://dev.socrata.com/) to access the open data platform and created a python script to integrate the data. The crawler script is located at [content/open-data-crawler.py](./content/open-data-crawler.py).
 * [Addon & Theme Building](https://www.broculos.net/2015/09/getting-started-with-discourse.html) - Getting Started with Discourse Development
 * We have developed a customized theme for our web-app https://github.com/fatihaksel/creative-kidz-theme
 * Please check out the [Installation file](./INSTALLATION.md)
@@ -30,7 +31,7 @@ Project is based on open-source Q&A software [Discourse](https://en.wikipedia.or
 
 We have integrated Buffalo Open Data ["Child Care Regulated Programs API"](https://data.ny.gov/Human-Services/Child-Care-Regulated-Programs-API/fymg-3wv3). This data includes the licensed and registered child care programs in New York State.
 
-We used [The Socrata Open Data API (SODA)](https://dev.socrata.com/) to access the open data platform and created a python script to integrate the data. The crawler script is located at [content/open-data-crawler.py](./content/open-data-crawler.py). We have integrated the child care centers that are located in Erie County. There are **499 registered child care centers** in Erie County.
+We have integrated the child care centers that are located in Erie County. There are **499 registered child care centers** in Erie County.
 
 These centers are integrated as a group, so that users can join their child care group to start discussion.
 
