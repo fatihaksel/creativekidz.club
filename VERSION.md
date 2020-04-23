@@ -1,5 +1,7 @@
 # Version History
 
+* Banner is added to Creative Kidz Theme
+* Image focused "Top Posts" view is added
 * Project based view is added
 * Added about us link
 * Integrated 499 Child Care Centers in Erie County Area (Open Data)
