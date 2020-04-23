@@ -2,6 +2,7 @@
 
 * New message about creating and sharing projects is added
 * Banner is added to Creative Kidz Theme
+* We got another mentor feedback, thank you Sanjoy Chatterjee! 
 * Image focused "Top Posts" view is added
 * Project based view is added
 * Added about us link
