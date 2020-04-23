@@ -1,5 +1,6 @@
 # Version History
 
+* New message about creating and sharing projects is added
 * Banner is added to Creative Kidz Theme
 * Image focused "Top Posts" view is added
 * Project based view is added
