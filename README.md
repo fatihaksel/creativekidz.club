@@ -7,7 +7,7 @@ It is a knowledge-base, learning & sharing platform to keep kids entertained dur
 
 ![Creative Kidz Logo](./design/ck_logo_yellow_small.png)
 
-Here is our version document and [the hackathon blog ](./VERSION.md)
+**[Our Hackathon Blog ](./VERSION.md)**
 
 We have a survey for parents here --> https://www.surveymonkey.com/r/JQD8N37
 
@@ -31,7 +31,7 @@ We have integrated Buffalo Open Data ["Child Care Regulated Programs API"](https
 
 We have integrated the child care centers that are located in Erie County. There are **499 registered child care centers** in Erie County.
 
-These centers are integrated as a group, so that users can join their child care group to start discussion. You can [browse groups](https://creativekidz.club/g) in the website.
+[Browse integrated child care centers](https://creativekidz.club/g)
 
 ## The Future Plans
 
