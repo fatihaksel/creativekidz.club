@@ -1,6 +1,8 @@
 # Version History
 
+* New homepage design
 * New message about creating and sharing projects is added
+* We would like to thank Dan Sternglass from makers community for his feedback!
 * Main page layout fix
 * Banner is added to Creative Kidz Theme
 * We got another mentor feedback, thank you Sanjoy Chatterjee!

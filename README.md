@@ -3,9 +3,9 @@ We know that it is hard to keep kids busy at home, especially if parents want th
 
 We gather and share creative, fun, easy to do activities for kids. The platform is designed to crowd-source projects, activities for kids to work independently or as a group.
 
-![Creative Kidz Logo](./design/ck_logo_yellow_small.png)
-
 It is a knowledge-base, learning & sharing platform to keep kids entertained during the coronavirus crisis.
+
+![Creative Kidz Logo](./design/ck_logo_yellow_small.png)
 
 Here is our version document and [the hackathon blog ](./VERSION.md)
 
@@ -33,7 +33,17 @@ We have integrated Buffalo Open Data ["Child Care Regulated Programs API"](https
 
 We have integrated the child care centers that are located in Erie County. There are **499 registered child care centers** in Erie County.
 
-These centers are integrated as a group, so that users can join their child care group to start discussion.
+These centers are integrated as a group, so that users can join their child care group to start discussion. You can [browse groups](https://creativekidz.club/g) in the website.
+
+## The Future Plans
+
+* Continue to improve the prototype infrastructure while developing age-appropriate programs for clients.
+* Adding Childcare Centers to help them to create a learning & sharing platform with their kids and parents.
+* Adding premium features for teachers, allowing continued engagement beyond school and normal homework.
+* We plan to partner with schools and maker labs to enhance STEAM initiatives.
+* We will continue to work closely with mentors to lead projects.
+
+For more information please check out [the idea document](./IDEA.md)
 
 ## Team Members
 
