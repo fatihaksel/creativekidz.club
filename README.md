@@ -31,7 +31,7 @@ We have integrated Buffalo Open Data ["Child Care Regulated Programs API"](https
 
 We have integrated the child care centers that are located in Erie County. There are **499 registered child care centers** in Erie County.
 
-[Browse integrated child care centers](https://creativekidz.club/g)
+**[Browse integrated child care centers](https://creativekidz.club/g)**
 
 ## The Future Plans
 
@@ -41,7 +41,7 @@ We have integrated the child care centers that are located in Erie County. There
 * We plan to partner with schools and maker labs to enhance STEAM initiatives.
 * We will continue to work closely with mentors to lead projects.
 
-For more information please check out [the idea document](./IDEA.md)
+**[Creative Kidz idea document](./IDEA.md)**
 
 ## Team Members
 
