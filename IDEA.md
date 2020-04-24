@@ -2,7 +2,7 @@
 
 Families with children want to make sure they are doing meaningful activities together. CreativeKidz Club gathers and shares creative, fun, age-appropriate activities for kids. The platform is designed to crowd-source projects to work independently, lightly guided by an adult or as a group. The community has a wide variety of projects but focuses on building. Building is the practice of creating something where a need exists, and not being afraid to ask for help from others when you have a vision for something bigger. It also encourages users to learn new skills and have fun along the way.
 
-## Elevator Pitch
+## Elevator Pitch
 
 We know that it is hard to keep kids busy at home, especially if parents want them engaged in a meaningful activity that helps them develop. The new normal for social distancing, many family members now work at home, while kids study and play. This creates a problem with families feeling pulled in several directions.
 
