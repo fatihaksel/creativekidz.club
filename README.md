@@ -41,7 +41,7 @@ We have integrated the child care centers that are located in Erie County. There
 * Continue to improve the prototype infrastructure while developing age-appropriate programs for clients.
 * Adding Childcare Centers to help them to create a learning & sharing platform with their kids and parents.
 * Adding premium features for teachers, allowing continued engagement beyond school and normal homework.
-* We plan to partner with schools and maker labs to enhance STEAM initiatives.
+* We plan to partner with schools and maker labs to enhance STEAM initiatives. We feel the big opportunity for this platform is to encourage kids to engage with thier hands and with thier minds. When they see a need in the world they should try to find a solution. If they can't accomplish it themselves, then they should reach out for help. THis platform encourages them to collaborate starting at a young age and growing in sophistication over time. 
 * We will continue to work closely with mentors to lead projects.
 
 **[Creative Kidz idea document](./IDEA.md)**
