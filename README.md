@@ -62,4 +62,4 @@ We have integrated the child care centers that are located in Erie County. There
 
 * Creative Kidz Club is a project built for [Code:Buffalo Hackathon](https://www.43north.org/code-buffalo/)
 * [Deniz Kalkan]( https://www.instagram.com/denkalart/) thank you for graphic designs
-* We would like to thank our great mentors Jordan Walbesser and Daniel Sternglass
+* We would like to thank our great mentors Jordan Walbesser (jordan.walbesser@gmail.com) and Daniel Sternglass (https://www.linkedin.com/in/daniel-sternglass-0080135/)
