@@ -39,8 +39,8 @@ We have integrated the child care centers that are located in Erie County. There
 ## The Future Plans
 
 * Continue to improve the platform's usability while developing age-appropriate programs based on user and community feedback.
-* Add Childcare Centers as project leaders to help them to create a learning & sharing platform with their kids and parents. This may lead to premium features that help centers add value to families that extends beyond normal business hours. 
-* We plan to partner with grade through high schools and maker labs to enhance STEAM initiatives. We feel the big opportunity for this platform is to encourage kids to engage with thier hands and with thier minds. When they see a need in the world they should try to find a solution. If they can't accomplish it themselves, then they should reach out for help to create something bigger than themselves. This platform encourages them to collaborate starting at a young age and growing in sophistication over time. 
+* Add Childcare Centers as project leaders to help them to create a learning & sharing platform with their kids and parents. This may lead to premium features that help centers add value to families that extends beyond normal business hours.
+* We plan to partner with grade through high schools and maker labs to enhance STEAM initiatives. We feel the big opportunity for this platform is to encourage kids to engage with thier hands and with thier minds. When they see a need in the world they should try to find a solution. If they can't accomplish it themselves, then they should reach out for help to create something bigger than themselves. This platform encourages them to collaborate starting at a young age and growing in sophistication over time.
 * We will continue to work closely with mentors and startup activists in Buffalo to find meaningful projects worth incorporating.
 
 **[Creative Kidz idea document](./IDEA.md)**
@@ -62,4 +62,4 @@ We have integrated the child care centers that are located in Erie County. There
 
 * Creative Kidz Club is a project built for [Code:Buffalo Hackathon](https://www.43north.org/code-buffalo/)
 * [Deniz Kalkan]( https://www.instagram.com/denkalart/) thank you for graphic designs
-* We would like to thank our great mentors Jordan Walbesser ( jordan.walbesser@gmail.com) and Daniel Sternglass ( https://www.linkedin.com/in/daniel-sternglass-0080135/)
+* We would like to thank our great mentors Jordan Walbesser and [Daniel Sternglass](https://www.linkedin.com/in/daniel-sternglass-0080135/)
