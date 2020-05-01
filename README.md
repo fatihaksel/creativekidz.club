@@ -11,8 +11,6 @@ It is a knowledge-base, learning & sharing platform to keep kids entertained dur
 
 **[Our Hackathon Blog ](./VERSION.md)**
 
-We have a survey for parents here --> https://www.surveymonkey.com/r/JQD8N37
-
 ## Built With
 
 Project is based on open-source Q&A software [Discourse](https://en.wikipedia.org/wiki/Discourse_(software))
