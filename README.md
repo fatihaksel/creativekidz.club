@@ -1,5 +1,5 @@
 # creativekidz.club
-We know that it is hard to keep kids busy at home, especially if parents want them engaged in a meaningful activity that helps them develop. With the COVID-19 outbreak and lockdown, almost all of the family members now work at home, kids study at home.
+We know that it is hard to keep kids busy at home, especially if parents want them engaged in a meaningful activity that helps them develop. With the COVID-19 outbreak and lockdown, almost all of the family members now work at home at the same time kids study at home. 
 
 We gather and share creative, fun, easy to do activities for kids. The platform is designed to crowd-source projects, activities for kids to work independently or as a group.
 
