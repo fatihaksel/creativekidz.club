@@ -49,7 +49,7 @@ We have integrated the child care centers that are located in Erie County. There
     * University at Buffalo Child Care Center Board Member
     * [GitHub](https://github.com/fatihaksel)
     * [LinkedIn](https://www.linkedin.com/in/fatih-aksel/)
-* *Jeff* - Customer Developer / Front End Developer
+* *Jeff* - Customer Developer
     * [GitHub](https://github.com/wayraw)
     * [LinkedIn](https://www.linkedin.com/in/jeffraugh/)
 * *Hazel* - UB Assistant Professor / Product Manager
